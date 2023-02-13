@@ -126,9 +126,15 @@ Linking a Jira issue to a version can be done in a few ways; when viewing the *B
 
 ### Knowledge Check
 
-<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=FiQRprAHpUGbsdFGtXXJdbYI5zJTw2hPnSNApuH1Q3VUMkdKN00xTURYVVBQWk5HVVNNRFVFT0xXNC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+Test your knowledge on Agile Functionality in Jira by taking the below quiz.
 
-## Managing a sprint in Jira
+Responses are only recorded for improving the quality of the training material; there is no grading or point requirements for successful completion of this course. Take quiz as many times as you feel would be beneficial for you.
+
+<br/>
+
+<iframe width="640px" height="550px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=FiQRprAHpUGbsdFGtXXJdZk76sp1AUtCuj5UbG5eYcxURExYNTBDUFk4RURLMEE2S0NGQ1RCSzFEUCQlQCN0PWcu&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+## Managing a Sprint in Jira
 
 Using the knowledge of how Jira enables agile functionality, it is possible to create, manage, and release development sprints within its environment. The next section of this guide will cover how to plan and start a sprint within Jira, tools used to refine and monitor the sprint, and finally how to release a sprint in Jira.
 
@@ -186,7 +192,7 @@ Note that articles created and managed within Confluence can be linked to the sp
 
 The **sprint board** is a Jira tool that attempts to provide increased functionality and visual representation of active sprints and tasks. The sprint board can be used to quickly move issues through the workflow as updates develop. It is also an effective tool to utilize in daily scrum meetings to audit the issues in the sprint and visually be made aware of the sprint scope for ensuring quality and efficiency. Examine the screenshot provided below of the sprint board:
 
-[Demonstrating the sprint board in Jira...](sprint_board.jpg)
+[Demonstrating the sprint board in Jira...](sprint_board.png)
 
 Notice the title *Test Sprint* at the top of the page; this screenshot demonstrates that the board is filtered specifically on tasks categorized within that sprint. To see all tasks and sprints within a projecxt, click on the *Switch sprint* link next to the title of the sprint and ensure *All sprints* is selected. The sprint goal(s) provided during sprint configuration will appear below the sprint name. Other filters can also be applied to the sprint board such as a filter on personally owned issues and/or recently updated issues.
 
@@ -203,3 +209,32 @@ In the screenshot above, notice how APM-366 is the only ticket that was complete
 ![Accessing a sprint report in the APM Jira project...](sprint_report.png)
 
 When a sprint has been successfully completed, the page will redirect to the Sprint Report page (pictured above). This section allows you to visualize in-depth details and statistics of your sprint, which can be used to inform strategy and refinement of future sprints. Assuming scrum and/or retrospective reports were also linked, those reports will always be visible through the sprint report associated with the arbitrary sprint. The sprint report can display other past sprints by selecting the *Switch report* button at the top of the screen next to the *Sprint Report* title.
+
+### Knowledge Check
+
+Test your knowledge on Agile Sprint Management in Jira by taking the below quiz.
+
+Responses are only recorded for improving the quality of the training material; there is no grading or point requirements for successful completion of this course. Take quiz as many times as you feel would be beneficial for you.
+
+<br/>
+<iframe width="640px" height="550px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=FiQRprAHpUGbsdFGtXXJdZk76sp1AUtCuj5UbG5eYcxUQlBCTVJGTFBXOVgzNkRNRUZYMzVSODdRUCQlQCN0PWcu&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> 
+
+## Conclusion
+
+Congratulations! This completes the Agile Jira Management training course! On behalf of the APM team, we hope this course was helpful for learning more about Agile methodology, Jira, and managing sprints.
+
+Please continue to the Attestation & Feedback sections of this course before navigating away from this page!
+
+The attestation section contains a form which can be used to attest to completion of this course. Use the Teams survey provided to attest and obtain a receipt of course completion.
+
+The feedback section contains a survey which the APM team uses to iteratively improve the quality of our training. Please take a moment to complete the feedback survey; all responses are anonymous!
+
+### Attestation
+
+<iframe width="640px" height="550px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=FiQRprAHpUGbsdFGtXXJdZk76sp1AUtCuj5UbG5eYcxUOVE2RzVHTjBNWUpYNzZJMVM1MkpORVRTUiQlQCN0PWcu&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+
+### Course Feedback
+
+<iframe width="640px" height="550px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=FiQRprAHpUGbsdFGtXXJdZk76sp1AUtCuj5UbG5eYcxUMEI0OU9HNUFPNElXSFJZVDZKUFBIUjNTUiQlQCN0PWcu&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
