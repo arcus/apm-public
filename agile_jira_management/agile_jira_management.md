@@ -1,6 +1,6 @@
 # Agile Jira Management Course
 
-Welcome to the Agile Jira Management knowledge article for Arcus! This course was designed as an entry-level guide for managing agile projects within Jira. This article assumes that you are familiar with standard Agile practices, and focuses more on Jira functionalities which support Agile development. For any assistance with Agile methodology, visit APM's [Agile Methodology Overview](https://wiki.chop.edu/display/ARCUS/Agile+Methodology+Overview) article.
+Welcome to the Arcus Project Management training course for Agile Jira Management! This course was designed as an entry-level guide for managing agile projects within Jira. This article assumes that you are familiar with standard Agile practices with some familiarity with using Jira, and focuses more on explaining the Jira functionalities which support Agile development. For more information specifically on Agile methodology, visit APM's [Agile Methodology Overview](https://wiki.chop.edu/display/ARCUS/Agile+Methodology+Overview) course.
 
 ## Terms & Acronyms
 
@@ -10,11 +10,12 @@ The following table provides a comprenhensive list of terms which may be useful 
 
 | Term | Description |
 |:-|-|
-|**Affects Version(s)**| A Jira issue data field describing the version in which a Jira issue was discovered and logged.|
-|**APM**| Arcus Project Management – the core team that provides both internal and external project management support and organization for the Arcus program. In the context of Arcus, internal projects relate to efforts owned by other core teams or Arcus leadership. External projects relate to customer-facing projects such as scientific projects.|
+|**Affects Version(s)**|A Jira issue data field describing the version in which a Jira issue was discovered and logged.|
+|**APM**|Arcus Project Management – the core team that provides both internal and external project management support and organization for the Arcus program. In the context of Arcus, internal projects relate to efforts owned by other core teams or Arcus leadership. External projects relate to customer-facing projects such as scientific projects.|
 |**Epic**|A Jira issue type which describes a high-level project milestone or set of smaller efforts. User stories, tasks, and sub-tasks are linked to epics to distinguish task dependencies and definition of done for the epic.|
 |**Fix Version(s)**|A Jira issue data field describing which version will be progressing as a result of issue completion.|
 |**Issue**|A data object used in Jira to document and describe a task, milestone, or similar objective.|
+|**Jira**|The web-based software platform Arcus uses to track and organize execution of projects & inititatives down to the task/sub-task level.|
 |**Jira Project**|In the context of Jira, a project is the space in which versions, epics, and tasks are managed. For Agile Jira Management, the Jira project should be configured to a Software project.|
 |**Project Backlog**|A list of outstanding tasks outside of the scope of the current sprint, all of which will eventually require execution for project completion.|
 |**Sprint**|A segment of time within which an execution team completes a set of tasks that will progress an overall effort or project. Traditionally, sprints are 2 weeks in length (~ 10 business days, where the first day is focused on planning, the last day is focused on release and retrospective, and the median 8 days are focused on task execution).|
