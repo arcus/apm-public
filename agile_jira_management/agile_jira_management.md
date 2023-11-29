@@ -1,6 +1,6 @@
 # Agile Jira Management Course
 
-Welcome to the Arcus Project Management training course for Agile Jira Management! This course was designed as an entry-level guide for managing agile projects within Jira. This article assumes that you are familiar with standard Agile practices with some familiarity with using Jira, and focuses more on explaining the Jira functionalities which support Agile development. For more information specifically on Agile methodology, visit APM's [Agile Methodology Overview](https://wiki.chop.edu/display/ARCUS/Agile+Methodology+Overview) course.
+Welcome to the Arcus Project Management training course on Agile Jira Management! This course was designed as an entry-level guide for managing Agile projects within Jira. This article assumes that you are familiar with standard Agile practices and have some familiarity with using Jira, and is focused on explaining the Jira functionalities which support Agile development. For more information specifically on Agile methodology, visit APM's [Agile Methodology Overview](https://wiki.chop.edu/display/ARCUS/Agile+Methodology+Overview) course.
 
 ## Terms & Acronyms
 
@@ -11,16 +11,19 @@ The following table provides a comprenhensive list of terms which may be useful 
 | Term | Description |
 |:-|-|
 |**Affects Version(s)**|A Jira issue data field describing the version in which a Jira issue was discovered and logged.|
-|**APM**|Arcus Project Management – the core team that provides both internal and external project management support and organization for the Arcus program. In the context of Arcus, internal projects relate to efforts owned by other core teams or Arcus leadership. External projects relate to customer-facing projects such as scientific projects.|
+|**Agile**|A project management & execution philosophy which emphasizes value on predicatable, frequent, and recurring collaboration with stakeholders via rapid and cyclical development iterations. This methodology operates under the premise that a project can continuously be refined throughout its life cycle through consistent execution and communication in cycles referred to as Sprints.|
+|**APM**|Arcus Project Management – The core Arcus team providing project management and organizational support, both (internally) for Arcus initiatives and (externally) for scientific research projects.|
 |**Epic**|A Jira issue type which describes a high-level project milestone or set of smaller efforts. User stories, tasks, and sub-tasks are linked to epics to distinguish task dependencies and definition of done for the epic.|
 |**Fix Version(s)**|A Jira issue data field describing which version will be progressing as a result of issue completion.|
 |**Issue**|A data object used in Jira to document and describe a task, milestone, or similar objective.|
-|**Jira**|The web-based software platform Arcus uses to track and organize execution of projects & inititatives down to the task/sub-task level.|
+|**Jira**|A web-based management platform (used by Arcus) designed for organizing, tracking, and planning organizational initiatives down to the task/sub-task level.|
 |**Jira Project**|In the context of Jira, a project is the space in which versions, epics, and tasks are managed. For Agile Jira Management, the Jira project should be configured to a Software project.|
+|**Jira Service Desk**|An additional Jira product (used by Arcus) which adds a web-based service portal to the Jira environment. The service portal enables both Arcus contribituors and Arcus users to submit service requests to the Support Desk.|
 |**Project Backlog**|A list of outstanding tasks outside of the scope of the current sprint, all of which will eventually require execution for project completion.|
-|**Sprint**|A segment of time within which an execution team completes a set of tasks that will progress an overall effort or project. Traditionally, sprints are 2 weeks in length (~ 10 business days, where the first day is focused on planning, the last day is focused on release and retrospective, and the median 8 days are focused on task execution).|
-|**Sprint Goal(s)**|A description of the accomplishments with which the development team aims to achieve by releasing the sprint once completed.|
-|**Sprint Backlog**|A list of outstanding tasks queued for the current sprint which have not yet been started. All tasks in the sprint backlog must have been scoped, defined, estimated.|
+|**Scrum**|An Agile methodology for delivering a product to customers. Scrum is regarded as one of the most succesful and popular Agile frameworks.|
+|**Sprint**|A timeframe within which an execution team commits to executing a set of tasks required to progress one or more projects. Traditional sprints are 2 weeks in length (10 business days), where Day 1 is devoted to planning and Day 10 is devoted to release and reflection. The remaining 8 days between are devoted to task execution and checkin via the daily scrum).|
+|**Sprint Goal(s)**|A brief explanation of what the team plans to achieve during the course of the sprint.|
+|**Sprint Backlog**|A collection of tasks queued for execution in the current sprint. Every task in the sprint backlog should include a documented summary, scope, definition of completion, and estimatation.|
 |**Sub-task**|A Jira issue type which describes the lowest-level of work needed to complete an effort, and is typically linked to a parent task or user story.|
 |**Task**|A Jira issue type that describes work which requires completion to make progress on a project.|
 |**Version/Release**|An organizational Jira feature which provides the ability to track total project progress, including insights into milestones and describing a high-level execution timeline of a project.|
