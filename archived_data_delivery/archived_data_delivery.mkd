@@ -1,6 +1,10 @@
 # Archived Data Delivery
 
-<TODO>
+Welcome to the Arcus training course on the Archived Data Delivery Pipeline!
+
+This course offers an entry-level guide for understanding the operational pipeline to deliver data to a lab from the Arcus archives. The archived data delivery pipeline exists as a sub-process within the higher-level Arcus lab deployment operational process. This course assumes the reader has a basic understanding of Arcus's mission, the Scientific Project (SCIT) pipeline, and common terms/concepts associated with Arcus lab deployment & data delivery.
+
+This course is authored, hosted, and presented by the Arcus Project Management (APM) team.
 
 ## Terms & Acronyms
 
@@ -10,23 +14,294 @@ The following table provides a comprenhensive list of terms which may be useful 
 
 | Term | Description |
 |:-|-|
-|**Term**|Definition|
+|**Application Development (AppDev)**|Definition|
+|**Arcus Data Repository (ADR)**|Definition|
+|**Arcus General Support (AG)**|Definition|
+|**Arcus Project Management (APM)**|Definition|
+|**Library Science (LS)**|Definition|
+|**Operational Pipeline**|Definition|
+|**Project Owner (PO)**|Definition|
+|**Requests (REQ)**|Definition|
+|**Scientific Project (SCIT)**|Definition|
+|**Subject Matter Expert (SME)**|Definition|
 
-## Heading 1
+## Operational Pipeline
+
+At its highest level, delivering data from the archives generally involves the following four (4) steps...
+
+1. Assessment of the new request.
+2. Refinement of the request & dependency resolution.
+3. Execution of delivery.
+4. Confirmation of successful delivery & closing the request.
+
+The cross-functional team supporting archived data delivery utilizes the Requests (REQ) Jira space to manage all of the currently active deliveries. Within the REQ space, a single Task ticket represents a request for archived data.
+
+When a lab is being deployed for a new SCIT project, the Project Owner (PO) is responsible for creating the REQ ticket. The PO will create the REQ ticket during project assessment, but before lab stand-up. Requests for archived data to existing labs are submitted by (or on behalf of) the study team through Arcus General Support (AG).
+
+### Phase 1: New Request Assessment
+
+**Overview**
+This is the first phase of the archived data delivery pipeline. The primary objectives of this phase are...
+- Document the request & connect it to relevant/helpful information.
+- Assess the request in core functional areas to determine fulfillment plan and apparent risks, dependencies, & issues.
+- Progress the maturation of the request such that refinement can begin.
+
+**Roles**
+- Project Owner
+- Library Science Representative
+- Application Development Representative
+- Arcus Data Repository Analyst
+
+**Environments**
+- Jira Production Domain
+    - Active Archived Data Deliveries Kanban Board
+    - Archived Data Delivery (REQ) Sub-Tasks Kanban Board
+    - Arcus General Support (AG)
+    - Requests (REQ)
+    - Scientific Projects (SCIT)
+
+**Inputs**
+- Request for archived data delivery...
+    - SCIT Lab Deployment
+    - AG Request
+
+**Outputs**
+- REQ Task
+    - (Completed) LS Feasibility Assessment Sub-Task
+    - (Completed) AppDev Feasibility Assessment Sub-Task
+    - (Completed) Privacy Review Assessment Sub-Task
+
+**Procedure**
+1. A REQ Task ticket is created and linked to other relevant Jira tickets.
+2. Jira automations create & link REQ sub-tasks for the LS, AppDev, & Privacy Feasibility Assessments. Sub-tasks are triaged to functional area representatives.
+3. LS, AppDev, and Privacy representatives assess the request's feasibility. Assessment results & recommendations are recorded on the Feasibility Assessment sub-tasks for each focus area.
+4. Resolve necessary outstanding dependencies, requirements, and concerns blocking progression to refinement.
+
+### Step 2: Request Refinement
+
+**Overview**
+<TODO>
+
+**Roles**
+<TODO>
+
+**Environments**
+<TODO>
+
+**Inputs**
+<TODO>
+
+**Outputs**
+<TODO>
+
+**Procedure**
+<TODO>
+
+Roles
+Requester
+Project Owner(s)
+Data Analyst(s)
+Library Science Point of Contact(s)
+Application Developer(s)
+Arcus Data Repository Analyst(s)
+Project Review Committee
+Data Expert(s)
+Environments
+Google Drive:
+Project Assessment Documentation
+RDS
+Jira
+REQ Ticket
+SCIT Ticket
+Inputs
+Request Requirements:
+Archived Data Request Requirements
+Outputs
+Scientific Project Assessment Components, Feasibility Studies, & Approvals:
+Approved SCIT Project Committee Review
+Approved SCIT Project Privacy Review
+Approved SCIT Project Assessment
+Approved SCIT Project ADR Assessment*
+Approved SCIT Project Resource Feasibility Assessment
+Human Readable Refined Requirements
+Preparation for YML file creation.
+Requester-Signed Requisite Regulatory Documentation
+Requester-Signed Refined Requirements
+Requester-Signed Privacy Assessment
+Participant Feasibility Assessment*
+Qualitative Metadata Analysis*
+Data Feasibility Assessment*
+*: Only required based on the nature of the request requirements
+
+Procedure 
+(Estimated Time to Complete: 25 – 45 Days)
+
+The LS & DA will collaborate to perform a detailed assessment of the request requirements: (Time Estimate: 20 - 40 Days)
+Parallel Decision Point (LS): Will the data request require a participant feasibility assessment? (Time Estimate: 5 – 10 Days)
+[NO]: Participant feasibility deemed unrequired.
+[YES]: The LS, DA, & Dev will utilize RDS for assessing available participant counts and generating participant feasibility assessment. (5 Days)
+Decision Point (LS): Does the request require refinement based on participant count availability?
+[NO]: Participant feasibility approved by LS.
+[YES] – Decision Point (Requester): Can the assessment/request be refined such that the request is feasible from a participant count perspective? (1 – 5 Days)
+[YES]: The request participant requirements are refined to accommodate feasibility.
+[NO]: The request is terminated.
+Parallel Decision Point (LS): Will the data request require a qualitative analysis on library metadata related to the request? (Time Estimate: 10 – 15 Days)
+[NO]: Qualitative metadata analysis deemed not required.
+[YES]: The LS & DA will perform a qualitative analysis on library metadata related to the request. (10 Days)
+Decision Point (LS): Does the request require refinement based on the qualitative metadata analysis results?
+[NO]: Metadata analysis approved by LS.
+[YES] – Decision Point (Requester): Can the request be refined such that the request is feasible from a metadata perspective? (1 – 5 Days)
+[YES]: The request requirements are refined to accommodate feasibility.
+[NO]: Request is terminated.
+Parallel Decision Point (LS): Does the request require a Data Expert analysis on available existing contributions for fulfillment? (Time Estimate: 10 – 15 Days)
+[NO]: Data Expert analysis deemed unrequired.
+[YES]: The LS, DA, and Data Expert(s) will conduct an analysis on available data in pre-existing contributions to fulfill requests. (10 Days)
+Decision Point (LS): Does the request require refinement based on the Data Expert analysis?
+[NO]: Data accessibility approved by LS.
+[YES] – Decision Point (Requester): Can the request be refined such that the request is feasible from a Data Expert perspective? (1 – 5 Days)
+[YES]: The request requirements are refined to accommodate feasibility.
+[NO]: Request is terminated.
+Decision Point (ADRA): Is the data which is being requested sourced from ADR? (Time Estimate: 15  – 20 Days)
+[NO]: ADR assessment not required for the request.
+[YES]: ADR assessment is conducted by ADRA to determine requirements for ADR Request File, cohort definition, and feasibility. (15 Days)
+Decision Point (ADRA): Does the request and/or cohort require refinement based on the ADR assessment?
+[NO]: Data accessibility approved by LS.
+[YES] – Decision Point (Requester): Can the cohort/request be refined such that the request is feasible from a Data Expert perspective? (1 – 5 Days)
+[YES]: The request requirements are refined to accommodate feasibility.
+[NO]: Request is terminated.
+The DA will define human-readable refined data requirements in Jira for LS to later translate into a YML file. (Time Estimate: 5 Days)
+The will Requester sign-off of requirements provided by the DA. (Time Estimate: 2 Days)
+The PO, Requester, and relevant parties will utilize the SCIT project process to complete the remaining assessments and approvals. The following assessments and approvals must be fully executed to begin data delivery:
+SCIT Project Committee Review
+SCIT Project Privacy Review
+SCIT Project Assessment
+SCIT Project ADR Assessment (if applicable)
+SCIT Project Resource Feasibility Assessment
+Refined Request Requirements
+
+### Step 3: Data Delivery Fulfillment
+
+**Overview**
+<TODO>
+
+**Roles**
+<TODO>
+
+**Environments**
+<TODO>
+
+**Inputs**
+<TODO>
+
+**Outputs**
+<TODO>
+
+**Procedure**
+<TODO>
+
+Roles
+Requester
+Project Owner(s)
+Data Analyst(s)
+Library Scientist Point of Contact(s)
+Application Developer(s)
+Arcus Data Repository Agent(s)
+Archivist(s)
+Environments
+Arcus Lab
+Google Cloud Platform
+Jira
+SCIT Ticket
+REQ Ticket
+Inputs
+Request Requirements:
+Human-readable Scoping Documentation
+Posted in comments on REQ ticket.
+Outputs
+Scientific Project Assessment Components, Feasibility Studies, & Approvals:
+Arcus Lab & Data Delivery Requester Sign-off
+Request Retrospective
+Application Development:
+Prerequisite Request Fulfillment Tooling
+Arcus Lab
+Data Delivery Files:
+ADR Request File
+YML File
+Data DIP
+Procedure
+(Estimated Time to Complete: 15-53 Days +/- Development Time)
+
+Note: There are a number of variables that make providing a more accurate estimation difficult at this time, including:
+
+The complexity and requirements around developing prerequisite tooling.
+The modality and complexity of the required data (ex: Relational, Omics, etc.)
+The complexity of de-identification and identifier coding required by the data.
+ADR fulfills any prerequisite components (e.g. cohort specification) of the project data request from non-archival data sources. (Time Estimate: 2 – 10 Days)
+App Dev will complete any development prerequisite tooling for fulfilling the delivery request. (Time Estimate: N/A*)
+App Dev Comments: “There's unfortunately no way to estimate this time in general. It would be entirely dependent on the context and whether we're starting something from scratch or adding functionality to something we have already.”
+App Dev will create the Arcus Lab environment for the request (Time Estimate: 1 Day)
+Human readable scoping is translated into a YML request file, which describes a subset of requested data. (Time Estimate: 1 – 5 Days)
+Decision Point (Archivist): Does the data type for the request have an existing DIP? (Time Estimate: 2 – 5 Days)
+[YES]: Confirm existing DIP rules are appropriate & accurate for data delivery. (Time Estimate: 2 Days)
+[NO]: Archivist & DA create request specification rules for relating delivered data (DIP). (Time Estimate: 5 Days)
+Decision Point (DA): What is the modality of the archived data being delivered?
+[1]: Relational Data-set (Time Estimate: 5 – 7 Days):
+ADR will stage an non-coded version of the deliverable data-set for testing.
+ADR will perform testing and review of the ETL code to extract the data.
+The data-set will be encoded after passing testing and pushed to the Arcus lab.
+[2]: Omics Data-set (Time Estimate: 5 – 12 Days):
+Decision Point (App Dev): Can the Omics software tool read the YML request file and provide a complete list of archived files?
+[YES]: Continue to Data De-Identification.
+[NO]: App Dev will apply any required manual effort to further refine and filter results into a concise data-set appropriate for the request and its cohort.
+App Dev will inspect, customize, and confirm that the de-identification/identifier-encoding software, which is hosted on the development Arcus Lab instance, is appropriately set for the data-set to be delivered. (Time Estimate: 1 – 5 Days)
+Note: De-identifying the data will take less time if the software tool can utilize established YML files from other requests.
+Note: New identifier encoding is implemented in each lab for privacy reasons; identifier encoding will take less time if the data-set has been previously de-identified for other projects.
+App Dev will upload the de-identified data-set to the GCS Bucket designated for the Lab associated with the request. (Time Estimate: 3 – 7 Days)
+App Dev will generate and deliver a file manifest CSV document to the Arcus Lab designated to the request (Time Estimate: 1 Day).
+Note: Each Arcus Lab for delivering data is designated a unique and specific GCS Bucket.
+Note: Omics data is not delivered directly to the lab. Rather, App Dev will make the GCS Bucket containing the requested data available to the Arcus Lab for the request.
+The PO, ADRA, & App Dev fulfilling the delivery will review the Arcus Lab & data delivered with the Requester (and their team, if applicable) (Time Estimate: 1 – 6 Days).
+Note: Arcus Lab introductions and education may be required depending on the Requester’s team and the data-set. Any additional education needed is the responsibility of the PO to coordinate with Education.
+Note: Negotiation is focused on identifying missing data, and may come up over time after the research team’s introduction to the Lab.
+The Requester and/or the PI associated with the request will provide written approval that all data delivered meets expectations and requirements. (Time Estimate: 1 Day)
+Note: Steps 7 and 8 are shared steps with the Scientific Project process. Delivery review and requester sign-off are defined within the ADD process as these are the steps that allow for these tasks to be considered completed. The review and sign-off should be the same that is performed for the SCIT process.
+
+## Delivery Pipeline for Archived Data
 
 <TODO>
 
-### Subheading 1
+Archived Data Delivery (ADD) is a form of data delivery to Arcus Labs within the context of a Scientific Project. The ADD process is designed to follow a decision-based workflow procedure, as well as defining the critical roles, responsibilities, inputs and outputs, and environments. The pipeline diagram included in this article is intended to provide a more high-level and summarized explanation of the ADD process. The objective of creating this diagram was to more clearly convey the steps, roles, and key outputs of each stage of the delivery for team members that might not be as close to the ADD process and for introductory education of the process.
+
+### Delivery Pipeline Diagram
 
 <TODO>
 
-<br/>
+The diagram highlights at its starting area that the ADD process begins with the identification of archived data requirements from a scientific project, which is typically identified by the project owner (Stage 2 of the Scientific Project Process Critical Path). Each block sequentially represents the stages of ADD as well as the key outputs of each stage. Any data modality differences are broken into their own blocks for clarity (ex: Archived Omics Delivery Fulfillment V.S. Archived ADR Delivery Fulfillment). The diagram's final arrow indicates that the ADD process ends once the archived data has been successfully delivered to the appropriate Arcus Lab.
 
-![Demonstrating the Releases feature in the APM Jira project...](versions.png)
+The diagram below provides a high-level depiction of the Archived Data Delivery operational process:
+
+![Archived Data Delivery Pipeline](archived_data_delivery_pipeline_diagram.png)
+
+## Archived Data Delivery Workflow
+
+<TODO>
+
+Archived Data Delivery (ADD) is a form of data delivery to Arcus Labs within the context of a Scientific Project. The ADD process is designed to follow a decision-based workflow procedure, as well as defining the critical roles, responsibilities, inputs and outputs, and environments. The workflow diagram included in this article provides a detailed, step-by-step illustration which describes the delivery of archived data. The diagram is made up of 3 swim-lanes, each of which describing an ADD Stage (Identifying a New Request, Refining the Request, and Fulfilling the Data Request).
+
+Each square node describes an action, task, and actor that will occur at that point in the process, and all nodes in the diagram should be traversed using the arrow indicators. Triangle nodes indicate decisions that will dictate the next step in the delivery process. Yellow nodes describe the environment in which the action occurs, when applicable (ex: Jira, Confluence, Google Drive, etc.). Finally, parallel processes nodes indicate areas where nodes occur simultaneously as needed by the scientific project. It is critical to read through the various steps of parallel process nodes until paths converge such that a complete understanding of the process is obtained.
+
+### Workflow Diagram
+
+<TODO>
+
+The workflow diagram below demonstrates the detailed steps and decisions which occur within the process of delivering archived data:
+
+![Archived Data Delivery Workflow Diagram](archived_data_delivery_workflow_diagram.png)
+
 
 ### Knowledge Check
 
-Test your knowledge of the Arcus Labs archived data delivery pipeline by taking the below quiz.
+Test your knowledge on the Archived Data Delivery process taking the below quiz.
 
 Responses are only recorded for improving the quality of the training material; there is no grading or point requirements for successful completion of this course. Take quiz as many times as you feel would be beneficial for you.
 
@@ -35,7 +310,7 @@ Responses are only recorded for improving the quality of the training material; 
 
 ## Conclusion
 
-Congratulations! This completes the Agile Jira Management training course! On behalf of the APM team, we hope this course was helpful for learning more about Agile methodology, Jira, and managing sprints.
+Congratulations; you have now completed the Archived Data Delivery training course! On behalf of the APM team, we hope this course was helpful for learning more about the process for accessing research data stored in the Arcus archvies.
 
 Please continue to the Attestation & Feedback sections of this course before navigating away from this page!
 
