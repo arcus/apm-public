@@ -13,14 +13,21 @@ Language:        EN
 
 # Archived Data Delivery Procedure for Arcus Labs
 
-Welcome to the Arcus archived data delivery procedure training course! This course offers an entry-level guide to the standards, dependencies, & procedure for obtaining access to archived data within an Arcus lab.
+Welcome to the Arcus archived data delivery procedure training course! This course intends to document the high-level standards, dependencies, & procedure involved in requesting & receiving access to archived data within an Arcus lab.
 
-The process of delivering archived data is initiated for a lab in either of the following scenarios...
+**"Archived Data Delivery"** (sometimes reffered to as "REQ") is an Arcus process in which research data stored in Arcus's archives is made available to a new or existing lab. In most cases, archived datasets are sourced from completed Arcus Labs projects, or are otherwise contributed by researchers & programs partnering with Arcus.
+
+Arcus's Library Science team oversees the curation & organization of contributed data within the archives. When data is contributed, the Library Science team maps the dataset's properties inside its metadata manifest file. Each contribution's metadata manifest is critical for data delivery because it describes the dataset's contents, requirements, & similar properties relevant to delivery.
+
+An archived data delivery request is generally initiated under one of two methods...
 
 <br>
 
-- The initial lab deployment for a new research project includes delivering one or more approved cohorts of data stored within the archive.
-- A delivery request is submitted for (or on behalf of) an active lab, in which the requested cohort data is stored in the archive.
+- A new research project is approved for lab deployment which requires one or several patient data cohort/s housed in the Arcus archives.
+
+**OR...**
+
+- An approved request from a study team with an active lab req in which the requested cohort data is stored in the archive.
 
 <br>
 
@@ -30,7 +37,7 @@ Before beginning this course, you should have a basic understanding of Arcus's m
 
 <br>
 
-*Presented by the Arcus Project Management (APM) team.*
+*Presented by Arcus Project Management (APM).*
 <br>
 *Author: Peter Venuti*
 <br>
@@ -60,14 +67,13 @@ The following table provides a comprenhensive list of terms which may be useful 
 
 At its highest level, delivering archived data to a lab involves four (4) steps...
 
-1. Acknowledge, assess, and document the new request.
-2. Refine the request requirements, prepare execution configuration, & resolve outstanding dependencies.
-3. Execute the delivery such that the target lab can access the archived data.
-4. Confirm successful delivery & close the request.
+1. Assess feasibility & dependencies of the new request.
+2. Refine its requirements, prepare execution configuration, & resolve outstanding dependencies.
+3. Execute & confirm successful delivery.
 
 <br>
 
-Support from each of the following Arcus functional teams is generally necessary for most deliveries of archived data...
+Support from each of the following Arcus functional teams is generally necessary for deliveries of archived data...
 
 - Application Development
 - Arcus Data Repository
@@ -77,11 +83,11 @@ Support from each of the following Arcus functional teams is generally necessary
 
 <br>
 
-The functional teams utilize the Requests (REQ) Jira project to coordinate and track active requests for archived data, where an individual Task object represents a specific lab's request for data. The **Active Archived Data Deliveries** & **Archived Data Delivery (REQ) Sub-Tasks** boards facilitate cross-functional coordination and tracking of active requests.
+The functional teams utilize the [Requests (REQ)](https://pm.arcus.chop.edu/projects/REQ/queues/custom/311) Jira project to coordinate and track active requests for archived data, where an individual Task object represents a specific lab's request for data. The **Active Archived Data Deliveries** & **Archived Data Delivery (REQ) Sub-Tasks** boards facilitate cross-functional coordination and tracking of active requests.
 
 Generally, Arcus categorizes archived data into one of two types...
 
-1. **Omics Data** – Genetic research data contributed to Arcus by a program/group (such as the Birth Defects repository (BDB) or the Epidemiology & Genomics Research Progream). Before a contributed dataset is both useable & accessible for research use, the AppDev team must prep the data by processing it through one or several workflow/s. Omics data is archived after processing is finished.
+1. **Omics Data** – Genetic research data contributed to Arcus by a program/group (such as the Birth Defects repository , BDB, or the Epidemiology & Genomics Research Program, EGRP). Before a contributed dataset is both useable & accessible for research use, the AppDev team must prep the data by processing it through one or several workflow/s. Omics data is archived after processing is finished.
 2. **Non-Omics Data** – Non-genetic research data contributed to the Arcus archives. Eseentially any archived data that is not Omics-related, such as previously-active labs or archived clinical data.
 
 <br>
@@ -228,7 +234,7 @@ The second phase of the archived data delivery pipeline generally involves devel
 4. When applicable, The AppDev developer completes all required pre-delivery development.
 5. The LS representative creates or repurposes an existing YML file & DIP rule configuration.
 
-### Step 3: Data Delivery Fulfillment & Confirmation
+### Phase 3: Data Delivery Fulfillment & Request Closure
 
 **Overview**
 
